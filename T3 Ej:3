@@ -1,0 +1,18 @@
+Algoritmo Num_Primo
+	Definir x,n,cont Como Entero
+	Escribir "Escriba un número"
+	Leer n
+	x <- 1
+	cont<- 0
+	Mientras x<=n Hacer
+		Si n mod x = 0
+			cont=cont+1
+		FinSi
+		x=x+1
+	FinMientras
+	Si cont=2 Entonces
+		Escribir "El numero ",n," es primo"
+	SiNo
+		Escribir "El numero ",n," no es primo"
+	FinSi
+FinAlgoritmo
