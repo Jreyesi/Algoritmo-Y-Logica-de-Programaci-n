@@ -1,0 +1,33 @@
+Algoritmo entero_mayor
+	Definir A,B,C Como Entero
+	Escribir "Ingrese el primer número:"
+	leer A
+	Escribir "Ingrese el segundo número:"
+	leer B
+	Escribir "Ingrese el tercer número:"
+	leer C
+	si A>B&A>C entonces 
+		Escribir "El mayor es: ", A
+		si B>C Entonces
+			Escribir "El segundo mayor es: ", B
+	    SiNo
+			Escribir "El segundo mayor es: ", C
+		FinSi
+	FinSi
+	si B>A&B>C entonces 
+		Escribir "El mayor es: ", B
+		si A>C Entonces
+			Escribir "El segundo mayor es: ", A
+	    SiNo
+			Escribir "El segundo mayor es: ", C
+		FinSi
+	FinSi
+	si C>A&C>B entonces 
+		Escribir "El mayor es: ", C
+		si A>B Entonces
+			Escribir "El segundo mayor es: ", A
+	    SiNo
+			Escribir "El segundo mayor es: ", B
+		FinSi
+	FinSi
+FinAlgoritmo
