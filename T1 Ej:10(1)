@@ -1,0 +1,14 @@
+Algoritmo Binario_Decimal
+	Definir n4,n3,n2,n1,bin Como Entero
+	Escribir "Ingrese un número binario de 4 digitos:"
+	Leer bin
+	n4=bin mod 10 
+	bin=trunc(bin/10)
+	n3=bin mod 10
+	bin=trunc(bin/10)
+	n2=bin mod 10
+	bin=trunc(bin/10)
+	n1=bin mod 10
+	decimal=(n1*2^3)+(n2*2^2)+(n3*2^1)+(n4*2^0)
+	Escribir "El binario convertido a decimal es: ", decimal 
+FinAlgoritmo
