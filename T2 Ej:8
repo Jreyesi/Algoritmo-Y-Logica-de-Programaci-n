@@ -1,0 +1,9 @@
+Algoritmo Dia_Mes
+	Definir DIA,MES,TRS Como Entero
+	Escribir "ingrese el dia:"
+	leer DIA
+	Escribir "Ingrese el mes:"
+	leer MES
+	TRS=((MES-1)*30)+DIA
+	Escribir "han pasado ", TRS, " dias desde el 1 de Enero del 2014"
+FinAlgoritmo
