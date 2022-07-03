@@ -1,0 +1,10 @@
+Algoritmo Hipotenusa 
+	Definir cat1,cat2,hip Como Real
+	cat1=0;cat2=0;hip=0
+	Escribir "Ingrese el cateto a: " 
+	Leer cat1
+	Escribir "Ingrese el cateto b: " 
+	Leer cat2
+	hip=raiz(cat1^2+cat2^2)
+	Escribir "La hipotenusa de su triángulo rectangulo es: " ,hip
+FinAlgoritmo
