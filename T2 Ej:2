@@ -1,0 +1,20 @@
+Algoritmo Capicua
+	Definir n1,n2,n4,n5,num Como Entero
+	Escribir "Ingrese un número entero de 5 dígitos:"
+	leer num
+	n1=trunc(num/10000)
+	a=trunc(num/1000)
+	n2=a mod 10
+	b=trunc(num/10)
+	n4=b mod 10
+	n5=num mod 10
+	si n1=n5 Entonces
+		si n2=n4 Entonces
+			Escribir "El número:",num " es Capicua"
+		SiNo
+			Escribir "El número:",num " no es Capicua"
+		FinSi
+	SiNo
+		Escribir "El número:",num " no es Capicua"
+	FinSi
+FinAlgoritmo
