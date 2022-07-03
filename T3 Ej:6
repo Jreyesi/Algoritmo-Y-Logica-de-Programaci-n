@@ -1,0 +1,25 @@
+Algoritmo Num_Mayor
+	Definir num,cont,may,men Como Entero
+    may=0
+    men=0
+    Escribir "Ingrese serie"
+    Leer num
+    si num>1 Entonces
+        Mientras num>0 Hacer
+            u=num mod 10
+            dv= num- TRUNC (num/10)
+            num= TRUNC (num/10)
+            acum= num+acum
+            Si u>may Entonces
+                may=u
+            SiNo
+                Si u<may Entonces
+                    men=u
+                SiNo
+                Fin Si
+            Fin Si
+        Fin Mientras
+        Escribir "el numero mayor es:", may
+        Escribir "el numero menor es:", men
+    FinSi
+FinAlgoritmo
