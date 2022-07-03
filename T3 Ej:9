@@ -1,0 +1,66 @@
+Algoritmo dominó
+		Definir n,n1,ac Como Entero
+		Escribir "ingrese un numero de ficha"
+		Leer n
+			Segun n Hacer
+				0:
+					Si n>=0 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 0 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+					
+				1:
+					Si n>=1 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 1 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+				2:
+					Si n>=1 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 2 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+				3:
+					Si n>=1 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 3 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+				4:
+					Si n>=1 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 4 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n,"/",i
+						Fin Para
+					FinSi
+				5:
+					Si n>=1 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- 5 Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+				6:
+					Si n>=5 y n<=6 Entonces
+						n1=1
+						ac=0
+						Para i<- n Hasta 6 Con Paso 1 Hacer
+							Escribir "ficha:"," ",n, "/",i
+						Fin Para
+					FinSi
+				De Otro Modo:
+					Escribir "la ficha ingreasada es inexistente"
+			Fin Segun
+FinAlgoritmo
