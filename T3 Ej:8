@@ -1,0 +1,8 @@
+Algoritmo multiplicación
+	definir n como entero
+    Escribir "Ingrese el número de la tabla que necesita calcular"
+    leer n
+    para i<- 0 hasta 10 Con Paso  1 hacer 
+        escribir n, " x " ,i, "=",(n*i)
+    FinPara
+FinAlgoritmo
