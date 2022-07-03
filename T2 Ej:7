@@ -1,0 +1,40 @@
+Algoritmo ICM
+	Definir cm,kg,lb,m,ps Como Real
+	Escribir "Ingrese su peso en Libras:"
+	leer lb
+	Escribir "Ingrese su altura en centimetros"
+	leer cm
+	kg=lb/2.20462262 
+	m=cm/100
+	ps=kg/m^2
+	Escribir "su IMC es: ",ps
+	si ps < 16 Entonces
+		Escribir "Criterio de ingreso"
+	sino
+		si ps < 17 Entonces
+			Escribir "Infra peso"
+		SiNo
+			si ps < 18.5 Entonces
+				Escribir "Bajo peso"
+			SiNo
+				si ps < 25 Entonces
+					Escribir "Peso normal"
+				sino 
+					si ps < 30 Entonces
+						Escribir "Sobrepeso"
+					sino 
+						si ps < 35 Entonces
+							Escribir "Obesidad pre-mórbida"
+						sino
+							si ps < 46 Entonces
+								Escribir "Obesidad mórbida"
+							sino
+								Escribir "Obesidad híper-mórbida"
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
