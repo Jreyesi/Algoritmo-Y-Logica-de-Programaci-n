@@ -1,0 +1,11 @@
+Algoritmo Positivo_Negativo
+	Definir num1 Como Real
+	num1=0
+	Escribir "Ingrese su número"
+	Leer num1
+	Si num1>0 Entonces
+		Escribir "Positivo" 
+	sino 
+		Escribir "Negativo"
+	FinSi
+FinAlgoritmo
