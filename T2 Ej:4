@@ -1,0 +1,9 @@
+Algoritmo segundos_hr_dia
+	Definir min,hrs,dia Como Real
+	Escribir "Ingrese la cantidad entera de segundos:"
+	leer seg
+	min=(seg/60)
+	hrs=(seg/3600)
+	dia=(seg/86400)
+	escribir "Su equivalente será: MINUTOS: ", min," HORAS: ", hrs, " DIAS: ", dia
+FinAlgoritmo
