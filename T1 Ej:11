@@ -1,0 +1,15 @@
+Algoritmo Numero_4_cifras
+	Definir u,d,c,m,num Como Entero
+	Escribir "Escriba un numero de 4 cifras:"
+	Leer num
+	u= num mod 10
+	num=trunc(num / 10)
+	d=num mod 10
+	num=trunc(num/10)
+	c=num mod 10
+	m=trunc(num/10)	
+	Escribir "La unidad es: ", u
+	Escribir "La decena es: ", d
+	Escribir "La centena es: ", c
+	Escribir "Unidad de mil es: ", m
+FinAlgoritmo
