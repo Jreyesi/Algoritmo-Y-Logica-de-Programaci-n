@@ -1,0 +1,18 @@
+Algoritmo Operaciones_Algebraicas
+	Definir num1,num2,sum,res,mul,div,modu Como Real
+	num1=0;num2=0;sum=0;res=0;mul=0;div=0;modu=0
+	Escribir "Escriba el primer numero"
+	Leer num1
+	Escribir "Escriba el segundo numero"
+	Leer num2
+	sum=num1+num2
+	res=num1-num2
+	mul=num1*num2
+	div=num1/num2
+	modu=num1 mod num2
+	Escribir "La suma de los numeros es: " ,sum
+	Escribir "La resta de los numeros es: " , res
+	Escribir "La multiplicación de los numeros es: " ,mul
+	Escribir "La division de los numeros es: " ,div
+	Escribir "El modulo de los numeros es: " , modu
+FinAlgoritmo
