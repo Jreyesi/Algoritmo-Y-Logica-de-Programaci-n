@@ -1,0 +1,19 @@
+Algoritmo Capicua
+	Definir num,cnum,dig,ninvrt Como Real
+	Escribir "Ingrese un numero entero:"
+	Leer num
+	cnum=num
+	Si num>0 Entonces
+		Mientras num>0 Hacer
+			dig=trunc(num mod 10)
+			num=trunc(num/10) 
+			ninvrt=(ninvrt*10)+dig
+		Fin Mientras
+		Escribir "El numero invertido es: ", ninvrt
+		si cnum=ninvrt Entonces
+			Escribir ninvrt, " es capicua."
+		SiNo
+			Escribir ninvrt, " NO es capicua."
+		FinSi
+	Fin Si
+FinAlgoritmo
