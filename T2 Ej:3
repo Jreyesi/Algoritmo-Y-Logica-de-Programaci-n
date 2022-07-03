@@ -1,0 +1,9 @@
+Algoritmo Hora
+	Definir hrs, min, seg Como Entero
+	Escribir "Ingrese solo la hora: "
+	Leer hrs
+	Escribir "Ingrese los minutos exactos: "
+	Leer min 
+	seg=(hrs*3600)+(min*60)
+	Escribir "El equivalente a segundos del día que han trascurrido es:" , seg " segundos."
+FinAlgoritmo
