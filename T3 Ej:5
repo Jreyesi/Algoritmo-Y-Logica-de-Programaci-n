@@ -1,0 +1,10 @@
+Algoritmo Contraseña
+	Definir cont Como Caracter
+	Escribir "Ingrese contraseña de 10 digitos:"
+	leer cont
+	Mientras longitud(cont)<10 Hacer
+		Escribir "Por su seguridad la contraseña debe tener 10 digitos:"
+		Leer cont
+	Fin Mientras
+	Escribir "La contraseña generada se registro correctamente."
+FinAlgoritmo
