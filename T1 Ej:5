@@ -1,0 +1,14 @@
+Algoritmo Resolvente
+	Definir a,b,c,rz1,rz2 Como Real
+	a=0;b=0;c=0;rz1=0;rz2=0
+	Escribir "Ingrese a"
+	Leer a 
+	Escribir "Ingrese b"
+	Leer b
+	Escribir "Ingrese c"
+	Leer c
+	rz1= (-b+raiz((b^2)-(4*a*c)))/2*a
+	rz2= (-b-raiz((b^2)-(4*a*c)))/2*a
+	Escribir "X1= ", rz1
+	Escribir "X2= ", rz2
+FinAlgoritmo
