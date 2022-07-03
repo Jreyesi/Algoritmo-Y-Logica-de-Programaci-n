@@ -1,0 +1,57 @@
+Algoritmo Mes_Año
+	Definir Nm Como Entero
+	Nm=0
+	Escribir "Ingrese un número del 1 al 12:"
+	leer Nm
+	si Nm=1 entonces
+		Escribir "El número del mes que usted eligió, se trata del mes de: ENERO"
+	SiNo
+		si Nm=2 entonces
+			Escribir "El número del mes que usted eligió, se trata del mes de: FEBRERO"
+		SiNo
+			si Nm=3 entonces
+				Escribir "El número del mes que usted eligió, se trata del mes de: MARZO"
+			SiNo
+				si Nm=4 entonces
+					Escribir "El número del mes que usted eligió, se trata del mes de: ABRIL"
+				SiNo
+					si Nm=5 entonces
+						Escribir "El número del mes que usted eligió, se trata del mes de: MAYO"
+					SiNo
+						si Nm=6 entonces
+							Escribir "El número del mes que usted eligió, se trata del mes de: JUNIO"
+						SiNo
+							si Nm=7 entonces
+								Escribir "El número del mes que usted eligió, se trata del mes de: JULIO"
+							SiNo
+								si Nm=8 entonces
+									Escribir "El número del mes que usted eligió, se trata del mes de: AGOSTO"
+								SiNo
+									si Nm=9 entonces
+										Escribir "El número del mes que usted eligió, se trata del mes de: SEPTIEMBRE"
+									SiNo
+										si Nm=10 entonces
+											Escribir "El número del mes que usted eligió, se trata del mes de: OCTUBRE"
+										SiNo
+											si Nm=11 entonces
+												Escribir "El número del mes que usted eligió, se trata del mes de: NOVIEMBRE"
+											SiNo
+												si Nm=12 entonces
+													Escribir "El número del mes que usted eligió, se trata del mes de: DICIEMBRE"
+												SiNo
+													si Nm > 12 O Nm < 1 entonces
+														Escribir "El año solo consta de doce meses"
+													FinSi
+												FinSi
+											FinSi
+										FinSi
+									FinSi
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
