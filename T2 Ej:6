@@ -1,0 +1,34 @@
+Algoritmo estacionamiento
+	Definir HrS,HrE,MtE,MtS,PH,PE,MT Como Real
+	HrS=0;HrE=0;MtE=0;MtS=0;HrS=0;PH=4;PE=2.5;MT=0
+	Escribir "Ingrese solo la hora de entrada (por favor usar formato de 24 hrs)"
+	Leer HrE
+	Escribir "Ingrese el minuto al que entró"
+	Leer MtE
+	Escribir "Ingrese la hora de salida (por favor usar formato de 24 hrs)"
+	Leer HrS
+	Escribir "Ingrese el minuto en el que salió"
+	Leer MtS
+	MT= abs(HrE-HrS)*4
+	Si MtS=MtE Entonces
+		MT=MT
+	SiNo
+		MT=MT+PE
+	Fin Si
+	Si HrE<13 Entonces
+		Escribir "Usted entró al estacionamiento a las: ", HrE ":" ,MtE " A."
+	SiNo
+		Si HrE>=13  Entonces
+			Escribir "Usted entró al estacionamiento a las: ", HrE ":" ,MtE " P."
+		Fin Si
+	Fin Si
+	Si HrS<13 Entonces
+		Escribir "Usted salió del estacionamiento a las: ", HrS ":" ,MtS " A."
+	SiNo
+		Si HrS>=13  Entonces
+			Escribir "Usted salió del estacionamiento a las: ", HrS ":" ,MtS " P."
+		Fin Si
+	Fin Si
+	Escribir "El monto total por la estancia en nuestro paqueadero es de:", MT " Bs."
+	Escribir "Tenga buen viaje, lo esperamos pronto" 
+FinAlgoritmo
