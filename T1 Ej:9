@@ -1,0 +1,18 @@
+Algoritmo Paridad
+	definir n1,n2,n3,n4,bin Como Entero
+	Escribir "Ingrese un numero binario de 4 cifras" 
+	Leer bin 
+	n4=bin mod 10
+	bin=trunc(bin/10)
+	n3=bin mod 10
+	bin=trunc(bin/10)
+	n2=bin mod 10
+	bin=trunc(bin/10)
+	n1=bin mod 10
+	sum <- n4+n3+n2+n1
+	si sum mod 2 == 0 Entonces
+		escribir "La paridad de su numero binario es: 0" 
+	SiNo
+		escribir "La paridad de su numero binario es: 1"
+	FinSi
+FinAlgoritmo
