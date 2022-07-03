@@ -1,0 +1,12 @@
+Algoritmo Fctorial
+	Definir num, n1,n2 Como Real
+	Escribir "Ingrese un numero"
+	Leer num
+	n1=num 
+	n2=1
+	Mientras n2<num Hacer
+		n1 = n1 * n2
+		n2 = n2 + 1
+	FinMientras
+	Escribir "La función factorial de ",num," es: ",n1
+FinAlgoritmo
