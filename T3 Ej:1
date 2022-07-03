@@ -1,0 +1,11 @@
+Algoritmo Num_Dig
+	Definir n Como Entero
+	Escribir "Ingrese un número:"
+	leer n
+	contador=0
+	Mientras n>=1 Hacer
+		n=trunc(n/10)
+		contador=contador+1
+	FinMientras
+	Escribir "El número que ingresó tiene:", contador, " dígitos"
+FinAlgoritmo
