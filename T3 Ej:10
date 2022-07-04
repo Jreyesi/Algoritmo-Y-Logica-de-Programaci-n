@@ -1,0 +1,21 @@
+Algoritmo Promedio_serie
+	Definir n,con, sr Como Entero
+    definir sum, pr Como Real
+    con=0
+    sum=0
+    t=0
+    Escribir "Ingrese serie"
+    Leer n
+    si n>1 Entonces
+        Mientras n>0 Hacer
+            u=n mod 10
+            dv= n- TRUNC (n/10)
+            n= TRUNC (n/10)
+            ac= n+ac
+            t=t+u
+            con=con+1
+        Fin Mientras
+        pr=(t/con)
+        Escribir "el promedio de la serie es:" pr
+    FinSi
+FinAlgoritmo
